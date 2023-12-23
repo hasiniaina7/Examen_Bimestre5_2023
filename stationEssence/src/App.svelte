@@ -10,10 +10,19 @@
 </script>
 
 <Navbar />
-<DarkMode class="relative" />
+<div class="darkmode">
+    <DarkMode class="relative" />
+</div>
 <Home />
 <Presentation />
 <Produits />
 <Maps />
 <Contact />
 <MyFooter />
+
+<style>
+    .darkmode {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+</style>
