@@ -13,7 +13,7 @@
             <div class="col-span-1"></div>
             <div class="col-span-2 pt-7">
                 <p class="p-5">
-                    <img class="w-60 h-14" src="/Logo-Axian.png" alt="" />
+                    <img class="w-60 h-14" src="./Logo-Axian.png" alt="" />
                     <Span gradient>Filiale du Groupe Axian,</Span>
                     Jovena Madagascar est le leader dans la distribution des carburants
                     à Madagascar. Fort de ses 105 stations-service, Jovena offre
@@ -28,7 +28,7 @@
                     >
                 </p>
                 <p class="p-5">
-                    <img class="w-60 h-15" src="/logo-source.jpg" alt="" />
+                    <img class="w-60 h-15" src="./logo-source.jpg" alt="" />
                     <Span gradient>
                         Jovena se transforme et diversifie ses activités.
                     </Span>

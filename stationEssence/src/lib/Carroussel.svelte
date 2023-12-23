@@ -6,17 +6,17 @@
     export const images = [
         {
             alt: "Payer avec VISA (TPE)",
-            src: "/images/visa.jpg",
+            src: "./images/visa.jpg",
             title: "Jovena",
         },
         {
             alt: "Jovena Manakara",
-            src: "/images/Jovena1.jpg",
+            src: "./images/Jovena1.jpg",
             title: "Jovena",
         },
         {
             alt: "Jovena Manakara",
-            src: "/images/Jovena.gif",
+            src: "./images/Jovena.gif",
             title: "Jovena",
         },
     ];

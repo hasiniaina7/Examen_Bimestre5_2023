@@ -20,6 +20,7 @@
     </div>
     <div class="md:grid gap-2 grid-cols-4 justify-center">
         <div
+            use:cascade={{ interval: 50, delay: 0, cursor: true }}
             class=" rounded-lg shadow-md home-text station col-span-1 text-center text-gray-300"
         >
             <!-- We will use it latter use:cascade={{ interval: 50, delay: 0, cursor: true }} -->
@@ -33,6 +34,7 @@
         </div>
         <!-- Use it latter use:concurrent={{ interval: 50 }} -->
         <div
+            use:cascade={{ interval: 50, delay: 2000 }}
             class=" rounded-lg shadow-md home-text jovena col-span-1 text-center text-gray-300"
         >
             Jovena se transforme et diversifie ses activités. En plus d’être un
@@ -65,7 +67,7 @@
         align-items: center;
         justify-content: center;
         min-height: 200px;
-        background: url(/back.jpg) no-repeat center;
+        background: url(./back.jpg) no-repeat center;
         background-size: cover;
     }
     .modal-btn {

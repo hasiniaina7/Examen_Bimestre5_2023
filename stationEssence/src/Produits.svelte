@@ -13,7 +13,7 @@
             <div
                 class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700"
             >
-                <img src="/images/pompist.png" alt="" />
+                <img src="./images/pompist.png" alt="" />
                 <GradientButton class="w-full " color="pinkToOrange"
                     >Carburant premium</GradientButton
                 >
@@ -53,7 +53,7 @@
             <div
                 class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700"
             >
-                <img src="/images/bidon.jpg" alt="" />
+                <img src="./images/bidon.jpg" alt="" />
                 <GradientButton class="w-full " color="pinkToOrange"
                     >Lubrifiant</GradientButton
                 >
@@ -93,7 +93,7 @@
             <div
                 class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700"
             >
-                <img src="/images/boutique.jpg" alt="" />
+                <img src="./images/boutique.jpg" alt="" />
                 <GradientButton class="w-full " color="pinkToOrange"
                     >Boutique</GradientButton
                 >
@@ -119,7 +119,7 @@
             <div
                 class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700"
             >
-                <img src="/images/SD.png" alt="" />
+                <img src="./images/SD.png" alt="" />
                 <GradientButton class="w-full " color="pinkToOrange"
                     >Services diversifiés</GradientButton
                 >
