@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Page Interactive</title>
+    </head>
+    <body>
+        <div id="container">
+            <p id="paragraphe">Ceci est un paragraphe.</p>
+        </div>
+    </body>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #container {
+            height: 100vh;
+            background: #f4f7a9;
+        }
+
+        #paragraphe {
+            margin: 0;
+            padding: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+    <script>
+        document.addEventListener("mousemove", function (e) {
+            const container = document.getElementById("container");
+            const paragraphe = document.getElementById("paragraphe");
+
+            const x = e.clientX / window.innerWidth - 0.5;
+            const y = e.clientY / window.innerHeight - 0.5;
+
+            const r = Math.floor(244 + x * 100);
+            const g = Math.floor(247 + y * 100);
+            const b = 169;
+
+            // Mettre à jour la couleur de fond du conteneur
+            container.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        });
+    </script>
+</html>
